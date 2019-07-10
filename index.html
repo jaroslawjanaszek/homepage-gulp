@@ -1,15 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/main.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-  <h1>Hello world!</h1>
-  
-  <script src="js/main.js"></script>
+	<header class="site-header">
+		<nav class="navigation">
+			<ul class="navigation__list navigation__list--js">
+				<li class="navigation__item">
+					<a class="navigation__link" href="index.html">Strona główna</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="podstrony/historia-podstrona.html">Historia</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="podstrony/stadion-podstrona.html">Stadion</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="podstrony/miasto-podstrona.html">Miasto</a>
+				</li>
+			</ul>
+		</nav>
+		<button class="navigation__switcher navigation__switcher--js" aria-label="Otwórz menu">MENU</button>
+	</header>
+	<main id="top" class="main">
+		<header class="header">
+			<h1 class="header__title header__title--js">
+				Moja pierwsza strona internetowa
+			</h1>
+		</header>
+
+		<section class="about">
+			<h2 class="about__header"> Kim jestem?</h2>
+			<p class="about__paragraph">
+				<img src="assets/img/indeks.png" alt="herb" class="about__image" />
+				Jarek Janaszek - inżynier budownictwa projektujący <strong class="person__special">ściany mobilne</strong>,
+				prywatnie fan <strong class="person__special">Interu Mediolan</strong> oraz entujasta włoskiej Serie A. Stawia
+				pierwsze kroki w frontendzie. <br>
+			</p>
+		</section>
+
+		<div class="content">
+			<section class="club">
+				<h2 class="club__header">Inter Mediolan czyli Nerazzurri.</h2>
+				<div class="grid">
+					<section class="club-content">
+						<h3 class="club-content__header">
+							<a href="podstrony/historia-podstrona.html">HISTORIA</a>
+						</h3>
+						<p class="club-content__paragraph">
+							Inter Mediolan założony został 9 marca 1908 roku przez działaczy A.C Milan, którzy odłączyli się od
+							swojego klubu wskutek protestu przeciwko obowiązującym zasadom,które ograniczały obecność w drużynach
+							zawodników zagranicznych. Nowo powstały zespół nazwany został Internazionale, co z włoskiego znaczy
+							Międzynarodowy. Jak sama nazwa wskazuje, drużyna od samego początku otwarta była na piłkarzy spoza
+							Półwyspu Apenińskiego. <br><br>
+							<a class="navigation__link" href="podstrony/historia-podstrona.html">Przejdź do artykułu o histrii
+								Interu</a>
+						</p>
+					</section>
+
+					<section class="club-content">
+						<h3 class="club-content__header">
+							Stadion Giuseppe Meazza
+						</h3>
+						<p class="club-content__paragraph">Stadio Giuseppe Meazza - jest jednym z największych stadionów na świecie.
+							Jego pojemność wynosi ok. 80 tysięcy. Swoje spotkania w roli gospodarza rozgrywają na nim dwa mediolańskie
+							klubu - Inter oraz Milan.<br><br>
+							<a class="navigation__link" href="podstrony/stadion-podstrona.html">Przejdź do artykułu o stadionie
+								Interu</a>
+						</p>
+					</section>
+
+					<section class="club-content">
+						<h3 class="club-content__header">
+							Mediolan - podstawowe informacje
+						</h3>
+						<p class="club-content__paragraph">Mediolan (Milano), miasto w północnych Włoszech. Położone w zachodniej
+							części Niziny Padańskiej, stolica regionu Lombardia, liczy 1,5 mln mieszkańców, zaś zespół miejski 4,2 mln
+							mieszkańców.<br><br>
+							<a class="navigation__link" href="podstrony/miasto-podstrona.html">Przejdź do artykułu o Mediolanie</a>
+						</p>
+					</section>
+
+					<section class="club-content">
+						<h3 class="club-content__header">
+							Antonio Conte nowym trenerem Interu
+						</h3>
+						<p class="club-content__paragraph">
+							Antonio Conte został nowym trenerem piłkarzy Interu Mediolan - poinformował w piątek występujący w Serie A
+							klub. Decyzja 49-letniego szkoleniowca wzbudziła wściekłość fanów Juventusu. W przeszłości Conte był
+							długoletnim kapitanem i trenerem turyńskiego klubu.
+						</p>
+					</section>
+
+					<section class="club-content">
+						<h3 class="club-content__header">
+							Javier Zanetti - legenda Interu
+						</h3>
+						<p class="club-content__paragraph">
+							Javier Adelmar Zanetti (ur. 10 sierpnia 1973 w Buenos Aires) – argentyński piłkarz występujący na pozycji
+							prawego obrońcy lub środkowego pomocnika. Zakończył swoją karierę i obecnie jest wiceprezydentem Interu
+							Mediolan.
+
+							Był kapitanem Interu, w którym grał od 1995 do 2014. Rozegrał ponad 800 spotkań w drużynie z Mediolanu.
+							Rekordzista pod względem występów w reprezentacji
+							Argentyny. Został wybrany przez FIFA do setki najlepszych piłkarzy wszech czasów.
+						</p>
+					</section>
+
+					<section class="club-content">
+						<h3 class="club-content__header">
+							Lautaro Martínez - wschodząca gwiazda?
+						</h3>
+						<p class="club-content__paragraph">
+							Lautaro Javier Martínez (ur. 22 sierpnia 1997 w Bahía Blanca) – argentyński piłkarz występujący na pozycji
+							napastnika we włoskim klubie Inter Mediolan oraz w reprezentacji Argentyny. <br>
+							Martínez oficjalnie dołączył do Interu 4 lipca 2018 roku za opłatą w wysokości 22,7 mln euro i podpisując
+							pięcioletni kontrakt z klubem. Jego debiut nastąpił 19 sierpnia, kiedy to wystąpił w przegranym meczu
+							pierwszej kolejki Serie A przeciwko Sassuolo. Swoją pierwszą bramkę w lidze zdobył 29 września w meczu
+							przeciwko Cagliari.
+						</p>
+					</section>
+
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<a href="#top" class="top">Na górę</a>
+		Strona domowa Jarka Janaszka, stworzona na szkoleniu WTF: Co ten frontend.
+	</footer>
+	<script src='js/main.js'>
+	</script>
 </body>
+
 </html>
